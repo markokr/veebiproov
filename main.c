@@ -1,5 +1,5 @@
 /*
- *
+ * Simple Socket Server
  */
 
 #include <usual/socket.h>
