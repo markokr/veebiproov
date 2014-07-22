@@ -14,7 +14,7 @@ struct WClient {
 	struct event ev;
 	int fd;
 	uint8_t buf[2048];
-	unsigned bufpos;
+	unsigned int bufpos;
 };
 
 static int make_socket(int domain, int type, int proto, bool nonblock)
